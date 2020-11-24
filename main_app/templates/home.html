@@ -1,11 +1,91 @@
+{%load static%}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
     <title>Giggle Productions</title>
 </head>
 <body>
-    <h1>Giggle Productions Landing Page</h1>
+<div class="header">
+    <h1 class="giggle-header">GiggleProductions</h1>
+</div>
+
+<div id="menu-outer">
+    <div class="table">
+      <ul id="horizontal-list">
+        <li>Home</li>
+        <li>People</li>
+        <li>Shows</li>
+      </ul>
+    </div>
+  </div>
+
+
+<div class="container-fluid">
+    <h3 id="card-headers">Recent</h3>
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-3">
+            <div class="card">
+                <img src="https://d2ycltig8jwwee.cloudfront.net/articles/5630/detail.970bb2c8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <img src="../static/images/Podcast icons.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col mb-3">
+            <div class="card">
+                <img src="https://static01.nyt.com/images/2020/07/24/arts/24tvcol-jimgaffigan/24tvcol-jimgaffigan-videoSixteenByNineJumbo1600.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <img src="../static/images/Podcast icons.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col mb-3">
+            <div class="card">
+                <img src="https://www.indiewire.com/wp-content/uploads/2020/11/AP_18252535269161.jpg?w=780" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <img src="../static/images/Podcast icons.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid">
+    <h3 id="card-headers">Trending</h3>
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-3">
+            <div class="card">
+                <img src="https://static.toiimg.com/thumb/msid-78968335,imgsize-304028,width-800,height-600,resizemode-75/78968335.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <img src="../static/images/Podcast icons.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col mb-3">
+            <div class="card">
+                <img src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABfu_gsbU7_e7b8VZUrmqLTtwI5L8YMcud-MqWxXjXrsX4ir420HV0hNJQbEnFanE2dOjrNPSElDCtYdW1_2scWaH6sBZ.jpg?r=be3" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <img src="../static/images/Podcast icons.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col mb-3">
+            <div class="card">
+                <img src="https://d2ycltig8jwwee.cloudfront.net/articles/5630/detail.970bb2c8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <img src="../static/images/Podcast icons.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
