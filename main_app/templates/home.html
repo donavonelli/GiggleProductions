@@ -1,3 +1,4 @@
+{% load static%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,5 +8,21 @@
 </head>
 <body>
     <h1>Giggle Productions Landing Page</h1>
+    <div>
+        <div>
+            <div>
+                <h3>Sign Up for Giggle Productions Newsletter</h3>
+                <form method="POST">
+                    {% csrf_token %}
+                    <div>
+                        {{form.as_p}}
+                        <span>
+                            <button type="submit">Subscribe</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

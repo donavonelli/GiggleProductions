@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles/mobile.css' %}">
+    <title>Giggle Productions Mobile</title>
+</head>
+<body>
+    <div id="mobile-screen">
+        <div id="header">
+            <h3 id='title'>GiggleProductions</h3>
+            <img src="https://files.slack.com/files-pri/T0351JZQ0-F01FCUNBRK7/screen_shot_2020-11-24_at_3.28.50_pm.png" alt="banner.png">
+        </div>
+        <div id="body">
+            <h4 id='recent'>Recent</h4>
+            <div class="img-container">
+                <img src="https://mediad.publicbroadcasting.net/p/shared/npr/202001/706836850.jpg" alt="John Mulaney">
+                <h5>EP 54: Um, You're not funny</h5>
+                <h5>John Mulaney</h5>
+            </div>
+        </div>
+        <div id="footer">
+            <div>
+                <h4 id="newsletter">Sign up for our Newsletter</h4>
+                {{form.as_p}}
+                <span>
+                    <button type="submit">Subscribe</button>
+                </span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

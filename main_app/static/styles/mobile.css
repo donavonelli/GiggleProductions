@@ -1,0 +1,59 @@
+#mobile-screen, #header{
+    background-color: #913ABD;
+    width: 375px;
+}
+
+#title{
+    /* position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; */
+    padding-top: 56px;
+    margin-right: 43px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    margin-left: 44px;
+    font-family: Marker Felt;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    color: #66D8AF;
+}
+
+#recent{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #66D8AF;
+    height: 35px;
+    width: 94px ;
+    padding-left: 20px;
+    margin-top: 43px;
+}
+
+img{
+    width: 295px;
+    height: 319px;
+    margin-left: 21px;
+}
+
+h5{
+    color: white;
+    margin-left: 43px;
+}
+
+#footer{
+    background-color: #373737;
+    width: 375px;
+    height: 505px;
+}
+
+#newsletter{
+    color: white;
+    padding-top: 20px;
+}
